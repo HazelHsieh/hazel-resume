@@ -121,6 +121,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .nav-bar {
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+    background-color: #f6f5f5;
+  }
   .nav-bar .menu {
     position: fixed;
     top: 0;
@@ -139,6 +145,10 @@ body {
   }
   .nav-bar .hamburger {
     display: block;
+  }
+  .nav-bar .hamburger:hover span:nth-child(2) {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
   }
   .nav-bar .menu.is-active {
     inset: 0 0 0 50%;

@@ -100,7 +100,38 @@ body{
         background-color: #F6CE3B;
     }
 
-    @media (max-width: 768px) {
+    // @media (max-width: 768px) {
+    //     .menu {
+    //         position: fixed;
+    //         top: 0;
+    //         left: 100%;
+    //         // inset: 0 0 0 30%;
+    //         flex-flow: column;
+    //         padding:10rem 2em;
+    //         background-color: #F2F2F2;
+    //         transition: 0.4s;
+
+    //         span {
+    //             padding: 12px 16px;
+    //         }
+    //     }
+    //     .hamburger {
+    //         display: block;
+    //     }
+    //     .menu.is-active {
+    //         inset: 0 0 0 50%;
+    //         z-index: 10;
+    //     }
+    // }
+}
+@media (max-width: 768px) {
+    
+    .nav-bar{
+        position: fixed;
+        top: 0%;
+        z-index: 1;
+        background-color: #f6f5f5;
+
         .menu {
             position: fixed;
             top: 0;
@@ -110,7 +141,7 @@ body{
             padding:10rem 2em;
             background-color: #F2F2F2;
             transition: 0.4s;
-
+    
             span {
                 padding: 12px 16px;
             }
@@ -118,12 +149,19 @@ body{
         .hamburger {
             display: block;
         }
+        .hamburger:hover span:nth-child(2) {
+            transform: translateX(0px);
+        }
         .menu.is-active {
             inset: 0 0 0 50%;
             z-index: 10;
         }
+
     }
+    
+    
 }
+
 
 .home {
     width: 100%;
