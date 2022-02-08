@@ -170,20 +170,18 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    font-weight:500;
     
 
     .text-container p:nth-child(1){
-        font-weight:600;
         color:#6d6d6d;
         font-size:22px;
         padding-bottom: 5px;
     }
     .text-container p:nth-child(2){
-        font-family:calibri;
-        font-weight:500;
         letter-spacing:1px;
         color:#1a1a1a;
-        font-size:50px;   
+        font-size:50px;  
     }
 
     // .text-container p:nth-child(3){
@@ -194,7 +192,6 @@ body{
     .text-container .text-info p {
         .fal{
             color: #F6CE3B;
-            font-weight: 500;
             font-size: 25px;
         }
         color: #403e3e;
