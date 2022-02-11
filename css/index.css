@@ -135,7 +135,9 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
-    padding: 200px 35px;
+    width: 400px;
+    height: 100vh;
+    padding: 100px 5px;
     background-color: #F2F2F2;
     -webkit-transition: 0.4s;
     transition: 0.4s;
@@ -152,7 +154,7 @@ body {
             transform: translateX(0px);
   }
   .nav-bar .menu.is-active {
-    left: 70%;
+    left: 60%;
     z-index: 10;
   }
 }
