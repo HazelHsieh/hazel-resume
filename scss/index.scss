@@ -118,10 +118,7 @@ body{
             padding: 100px 5px;
             background-color: #F2F2F2;
             transition: 0.4s;
-            border-radius: 0 0 0 20px;
-            // border-bottom: solid 2px #385DAA;
-            // border-left: solid 2px #385DAA;
-            // box-shadow: 0 0 1px 1px  #385DAA;
+            border-radius: 0 0 0 10%;
     
             span {
                 padding: 12px 16px;
@@ -131,10 +128,9 @@ body{
             display: block;
         }
         .hamburger:hover span:nth-child(2) {
-            transform: translateX(0px);
+            transform: translateX(10px);
         }
         .menu.is-active {
-            // inset: 0 0 0 50%;
             left: 60%;
             z-index: 10;
         }
