@@ -8,6 +8,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f6f5f5;
+  scroll-behavior: smooth;
   font-family: 'Segoe UI', SegoeUI, 'Microsoft JhengHei', 微軟正黑體, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
